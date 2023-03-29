@@ -1,1 +1,7 @@
 docker-compose-yaml: docker-compose.yml
+
+environments:
+  main:
+    routes:
+      - node:
+        - node-demo.amazee.io
